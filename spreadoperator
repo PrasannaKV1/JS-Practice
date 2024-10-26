@@ -1,0 +1,11 @@
+function additon(...parameters)
+{
+    let sum=0;
+    for(let i of parameters)
+    {
+        sum+=i;
+    }
+    return sum;
+}
+let total=additon(12,13,10);
+console.log(total);
