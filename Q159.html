@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .box::after {
+      content: "box content";
+    }
+
+    h1::before {
+      content: "Before Content ";
+      color: palevioletred;
+    }
+
+    h1::after {
+      content: " After Content";
+    }
+  </style>
+  <title>Pseudo Elements</title>
+</head>
+<body>
+  <h1>This is a heading</h1>
+  <div class="box">This is a box</div>
+</body>
+</html>
